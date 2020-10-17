@@ -7,7 +7,7 @@
 -----------------------------
 '''
 # Almacenaremos el número más grande actual aquí
-numero Mayor = -999999999
+numeroMayor = -999999999
 
 # Ingresa el primer valor
 numero = int(input ("Introduzca un número o escriba -1 para detener:"))
