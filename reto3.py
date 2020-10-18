@@ -1,7 +1,7 @@
 '''
 -----------------------------
  RETO N°3
- Bucle for
+ Bucle while
 -----------------------------
  Un niño y su padre juegan con bloques de madera construyendo una pirámide plana, donde cada capa inferior contiene un bloque más que la capa superior.
  
