@@ -9,8 +9,9 @@
  NOTA: La altura se mide por el número de capas completas
 -----------------------------
 '''
-bloques = int("Ingrese el número de bloques:"))
+bloques = int(input("Ingrese el número de bloques:"))
 
-# Escribe tu código aquí.
+# Escribe tu código aquí
 
 print("La altura de la pirámide:", altura)
+
