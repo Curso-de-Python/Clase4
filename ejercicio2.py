@@ -1,11 +1,13 @@
 '''
 -----------------------------
  EJERCICIO N°2
- Bucle for
------------------------------
-NOTA: Realiza cambios en range(), prueba con range(1,1)
-¿Qué sucede?
+ Bucle while con contador
 -----------------------------
 '''
-for i in range(2, 8, 3):
-  print("El valor de i es actualmente", i)
+contador = 5
+
+while contador != 0:
+  print("Dentro del ciclo: ", contador)
+  contador -= 1
+
+print("Fuera del ciclo", contador)
