@@ -1,48 +1,11 @@
 '''
 -----------------------------
  EJERCICIO N°3
- break y continue
+ Bucle for
 -----------------------------
- Programa que reconoce el más grande entre los números ingresados.
+ NOTA: Realiza cambios en range() con 1 y más argumentos, prueba con range(1,1)
+¿Qué sucede?
 -----------------------------
 '''
-# Variante con break
-
-numeroMayor = -99999999
-contador = 0
-
-while True:
-  numero = int (input ("Ingresa un número o escribe -1 para finalizar el programa:"))
-  if numero == -1:
-    break
-  contador = 1
-  if numero > numeroMayor:
-    numeroMayor = numero
-
-if contador != 0:
-  print("El número más grande es", numeroMayor)
-else:
-  print("No ha ingresado ningún número") 
-
-'''
-# Variante con continue
-
-numeroMayor = -99999999
-contador = 0
-
-numero = int (input("Ingresa un número o escribe -1 para finalizar el programa:"))
-
-while numero != -1:
-  if numero == -1:
-    continue
-  contador = 1
-
-  if numero > numeroMayor:
-    numeroMayor = numero
-  numero = int (input ("Ingresa un número o escribe -1 para finalizar el programa:"))
-
-if contador:
-  print("El número más grande es", numeroMayor)
-else:
-  print("No ha ingresado ningún número") 
-'''
+for i in range(10):
+  print("El valor de i es actualmente", i)
